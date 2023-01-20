@@ -29,6 +29,9 @@ class ViewController: UIViewController {
         let diceArray = ["DiceOne", "DiceTwo", "DiceThree", "DiceFour", "DiceFive", "DiceSix"]
         diceImageView1.image = (UIImage(imageLiteralResourceName: ["DiceOne", "DiceTwo", "DiceThree", "DiceFour", "DiceFive", "DiceSix"][Int.random(in: 0...5)])) // Int.random(in: 1...10) 1에서 10까지 랜덤 넘버 인출
         diceImageView2.image = (UIImage(imageLiteralResourceName: diceArray[Int.random(in: 0...5)])) //이런식으로 array를 가져와서 할 수도 있다
+        
+        //.randomElement()도 배열 안에 있는 엘레먼트를 random 반환한다.
+        
 
         
        
